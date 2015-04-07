@@ -12,17 +12,6 @@ module.exports = function(grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
 
-        copy: {
-            css_assets: {
-                files: [{
-                    expand: true,
-                    cwd: "styles",
-                    src: ["**/*.less", "**/*.woff", "**/*.ttf", "**/*.png", "**/*.gif", "**/*.css", "**/*.svg", "**/LICENSE", "**/LICENSE.txt" ],
-                    dest: '<%= kendo.options.stylesDestDir %>/',
-                }]
-            }
-        },
-
         kendo: {
             options: {
                 destDir: "dist",
@@ -45,15 +34,6 @@ module.exports = function(grunt) {
             options: {
                 destDir: "<%= kendo.options.jsDestDir %>",
             },
-        },
-
-        less: {
-            options: {
-                destDir: "<%= kendo.options.destDir %>",
-            },
-            compile: {
-                src: [ "styles/**/kendo*.less" ],
-            }
         },
 
         license: {
