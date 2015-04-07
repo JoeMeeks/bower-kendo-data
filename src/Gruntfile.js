@@ -15,8 +15,7 @@ module.exports = function(grunt) {
         kendo: {
             options: {
                 destDir: "dist",
-                jsDestDir: PATH.join("dist", "js"),
-                stylesDestDir: PATH.join("dist", "styles")
+                jsDestDir: PATH.join("dist", "js")
             },
             min: {
                 src: mainKendoFiles,
@@ -47,6 +46,5 @@ module.exports = function(grunt) {
     });
 
     // Default task(s).
-    grunt.registerTask('styles', [ 'copy:css_assets', 'less' ]);
-    grunt.registerTask('build', [ 'kendo', 'styles', 'license' ]);
+    grunt.registerTask('build', [ 'kendo', 'license' ]);
 };
