@@ -1,14 +1,14 @@
 {
-  "name": "kendo-ui",
-  "version": "2015.1.403",
+  "name": "kendo-data",
+  "version": "2015.1.318",
   "dependencies": {
     "jquery": ">=1.9.1 <=2.1.1"
   },
   "authors": [
     "Telerik"
   ],
-  "description": "Everything you need to build sites and apps with HTML5 & JavaScript",
-  "main": "js/kendo.ui.core.min.js",
+  "description": "Kendo Core Data for Angular",
+  "main": "js/kendo.custom.min.js",
   "moduleType": [
     "amd",
     "globals"
@@ -21,7 +21,7 @@
     "framework"
   ],
   "license": "Apache2",
-  "homepage": "http://www.github.com/telerik/kendo-ui-core",
+  "homepage": "http://www.github.com/JoeMeeks/bower-kendo-data",
   "private": false,
   "ignore": [
     "**/.*",
