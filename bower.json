@@ -1,6 +1,6 @@
 {
-  "name": "kendo-data",
-  "version": "2015.1.318",
+  "name": "kendo-angular-data",
+  "version": "0.1.0",
   "dependencies": {
     "jquery": ">=1.9.1 <=2.1.1"
   },
@@ -21,7 +21,7 @@
     "framework"
   ],
   "license": "Apache2",
-  "homepage": "http://www.github.com/JoeMeeks/bower-kendo-data",
+  "homepage": "http://www.github.com/JoeMeeks/kendo-angular-data",
   "private": false,
   "ignore": [
     "**/.*",
